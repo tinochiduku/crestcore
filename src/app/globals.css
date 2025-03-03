@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+    --primary: rgb(4, 36, 52);
+    --secondary: rgb(44, 180, 180);
+    --accent: hwb(210 9% 53%);
+}
+
+@layer {
+    .max {
+        @apply max-w-[1321px] mx-auto px-4
+    }
+}
