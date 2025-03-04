@@ -69,7 +69,7 @@ export default function Footer() {
                         <h4 className='text-2xl font-semibold'>Quick Links</h4>
                         <ul className='flex flex-col gap-2'>
                             {links.quick.map(({title, href}) => 
-                                <Link href={href}>
+                                <Link key={title} href={href}>
                                     {title}
                                 </Link>
                             )}
@@ -79,7 +79,7 @@ export default function Footer() {
                         <h4 className='text-2xl font-semibold'>Socials</h4>
                         <ul className='flex flex-col gap-2'>
                             {links.socials.map(({title, href}) => 
-                                <Link href={href}>
+                                <Link key={title} href={href}>
                                     {title}
                                 </Link>
                             )}

@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Affairs() {
   return (
     <section className='py-10'>
-        <div className='flex flex-col lg:items-center lg:flex-row gap-10'>
+        <div className='flex flex-col lg:items-center lg:flex-row gap-10 max'>
             <div className='lg:w-2/5 space-y-10'>
                 <span className='text-sm font-semibold'>STATE OF AFFAIRS</span>
                 <h4 className='text-3xl lg:text-4xl font-semibold'>Keeping you informed on tax laws and financial trends</h4>

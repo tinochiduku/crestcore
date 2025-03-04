@@ -11,7 +11,7 @@ export default function Hero() {
                 <div className='flex items-center'>
                     <div className='flex flex-col lg:items-center sm:flex-row bg-white rounded-lg sm:rounded-full px-4 py-2 text-sm font-medium gap-2 sm:gap-5 whitespace-nowrap'>
                         <span>Google Rating</span>
-                        <div className='flex items-center gap-2'>
+                        <div className='flex items-center gap-2 text-[var(--secondary)]'>
                             <span>5.0</span>
                             <ul className='flex items-center gap-1'>
                                 {[1,2,3,4,5].map((star) => 
