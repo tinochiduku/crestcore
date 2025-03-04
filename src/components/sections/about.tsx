@@ -9,23 +9,25 @@ export default function About() {
             <div className='flex flex-col lg:items-center lg:flex-row gap-4'>
                 <div className='lg:w-1/2 space-y-2'>
                     <span className='text-sm font-semibold'>ABOUT US</span>
-                    <h4 className='text-3xl lg:text-4xl font-semibold'>Your trusted partner in accounting solutions</h4>
+                    <h4 className='text-3xl lg:text-4xl font-semibold'>
+                    Empowering Businesses with Expert Financial Solutions
+                    </h4>
                 </div>
                 <div className='lg:w-1/2'>
                     <p>
-                        We are committed to meeting client needs and creating relevant solutions for your business pains. Our Firm places   remarkable emphasis on proffessional standards, confidently and the level of qualifications and experienced personnel.
+                    With a commitment to professionalism and innovation, we ensure that our clients achieve sustainable growth and compliance in an ever-evolving financial landscape. 
                     </p>
                 </div>
             </div>
             <div>
                 <div className='flex items-center justify-around relative overflow-hidden group rounded-2xl xl:rounded-3xl'>
                     <Image 
-                        src='/assets/about-us-img.jpg' 
+                        src='/images/about-img.jpg' 
                         alt='About Us Image' 
                         width={0} 
                         height={0}
                         sizes='100svw' 
-                        className='object-cover w-full h-[25rem]'
+                        className='object-cover object-top w-full h-[25rem]'
                     />
                     <div className='absolute inset-0 bg-white opacity-0 w-0 rotate-45 group-hover:w-[100%] scale-200 group-hover:opacity-20 transition-all duration-300 ease-in-out'/>
                     <div className='absolute bottom-4 flex items-center justify-around w-full'>

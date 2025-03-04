@@ -26,18 +26,19 @@ export default function Hero() {
                         </span>
                     </div>
                 </div>
-                <h1 className='text-center md:text-left text-3xl lg:text-4xl font-semibold'>Your premier desitnation for expert accounting solutions</h1>
+                <h1 className='text-center md:text-left text-3xl lg:text-4xl font-semibold'>Your Trusted Partner in Financial Excellence</h1>
                 <p className='text-center md:text-left'>Our understanding of your industry and your individual circumstances allow us to contribute far more than accountancy advice. We believe in being more than an advisory firm but that the advice is relevant to your business</p>
                 <div className='flex flex-col sm:flex-row items-center gap-4'>
                     <Button label='Work With Us' href='#' />
                     <Button label='View Our Services' href='#' />
                 </div>
             </div>
-            <div className='lg:w-1/2'>
+            <div className='relative flex items-end lg:w-1/2'>
+                <div className='absolute bg-[var(--secondary)] w-auto h-10/12 aspect-square rounded-2xl bottom-0' />
                 <Image
                     alt="hero-image"
-                    src='/assets/hero-img.png'
-                    className='w-full h-full object-contain'
+                    src='/images/hero-img.png'
+                    className='w-auto max-h-[35rem] object-contain scale-x-[-1]'
                     width={0}
                     height={0}
                     sizes='100svw'
