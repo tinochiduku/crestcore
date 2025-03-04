@@ -13,7 +13,7 @@ export default function Choosing() {
                 </div>
                 <div className='lg:w-1/2'>
                     <p>
-                        We are committed to meeting client needs and creating relevant solutions for your business pains. Our Firm places   remarkable emphasis on proffessional standards, confidently and the level of qualifications and experienced personnel.
+                    At Crestcore Consulting and Advisory, we go beyond numbers—we provide strategic financial solutions tailored to your business needs.
                     </p>
                 </div>
             </div>
@@ -50,10 +50,10 @@ export default function Choosing() {
                         />
                     </span>
                     <h4 className='text-xl font-semibold'>
-                        Expertise You Can Trust
+                    Our Vision
                     </h4>
                     <p>
-                        Quisque ligula quam, tempus non tempor sed, tempor in ligula. In sit amet orci elit. Donec egestas eros sit amet odio ultricies fermentum. Phasellus ullamcorper.
+                    To achieve precise excellence and distinguish ourselves as the leading accounting and tax advisory firm in Zimbabwe and beyond by creating value-driven solutions for businesses.
                     </p>
                 </div>
                 <div className='flex flex-col items-start space-y-4 bg-white rounded-4xl p-5'>
@@ -68,10 +68,10 @@ export default function Choosing() {
                         />
                     </span>
                     <h4 className='text-xl font-semibold'>
-                        Transparent Communication
+                       Our Mission
                     </h4>
                     <p>
-                        Quisque ligula quam, tempus non tempor sed, tempor in ligula. In sit amet orci elit. Donec egestas eros sit amet odio ultricies fermentum. Phasellus ullamcorper.
+                    We utilize our expertise, innovation, and strategic partnerships to assist businesses, government entities, and community organizations in enhancing their financial performance and achieving sustainable growth.
                     </p>
                 </div>
                 <div className='flex flex-col items-start space-y-4 bg-white rounded-4xl p-5'>
@@ -86,10 +86,10 @@ export default function Choosing() {
                         />
                     </span>
                     <h4 className='text-xl font-semibold'>
-                        Client Satisfaction
+                        Core Values
                     </h4>
                     <p>
-                        Quisque ligula quam, tempus non tempor sed, tempor in ligula. In sit amet orci elit. Donec egestas eros sit amet odio ultricies fermentum. Phasellus ullamcorper.
+                    At Crestcore Consulting and Advisory, our core values define who we are and guide every interaction with our clients. These principles form the foundation of our commitment to delivering exceptional service and meaningful solutions
                     </p>
                 </div>
             </div>

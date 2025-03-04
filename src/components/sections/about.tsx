@@ -53,7 +53,7 @@ export default function About() {
                         />
                     </span>
                     <p className='text-xl font-semibold'>
-                        We prioritize building long-term relationships with our clients and always put their needs first.
+                        We foster a supportive and collaborative environment, helping each other reach our full potential.
                     </p>
                 </div>
                 <div className='flex flex-col items-start space-y-4'>
@@ -68,7 +68,7 @@ export default function About() {
                         />
                     </span>
                     <p className='text-xl font-semibold'>
-                        We prioritize building long-term relationships with our clients and always put their needs first.
+                    We seek to understand our clients' unique circumstances to develop customized solutions.
                     </p>
                 </div>
                 <div className='flex flex-col items-start space-y-4'>
@@ -83,7 +83,7 @@ export default function About() {
                         />
                     </span>
                     <p className='text-xl font-semibold'>
-                        We prioritize building long-term relationships with our clients and always put their needs first.
+                    We use our expertise to provide insightful and innovative solutions that drive business success.
                     </p>
                 </div>
             </div>

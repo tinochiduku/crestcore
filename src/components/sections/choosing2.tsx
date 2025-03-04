@@ -23,7 +23,10 @@ export default function Choosing2() {
                     <h1 className='md:text-left text-3xl lg:text-4xl font-semibold'>Why choose us as your trusted financial partner?</h1>
                 </div>
                 <p className='md:text-left'>
-                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of.
+                    At Crestcore Consulting and Advisory, we combine industry expertise, innovative solutions, and a deep commitment to our clients' success. Our team of highly qualified professionals offers a comprehensive range of services, from accounting and tax advisory to business consulting and forensic accounting, all tailored to meet the unique needs of each client.
+                </p>
+                <p className='md:text-left'>
+                    We prioritize integrity, empathy, and respect in every engagement, ensuring that our solutions are not only effective but also aligned with your business goals. With a focus on precision and professionalism, Crestcore is your trusted partner in navigating complex financial landscapes, driving growth, and achieving long-term success. Let us empower your business with the expertise and personalized attention it deserves.
                 </p>
                 <div className='flex items-center gap-4'>
                         <div className=''>

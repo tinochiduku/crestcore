@@ -8,12 +8,12 @@ export default function Help() {
     <section className='mt-10 max'>
          <div className='flex flex-col lg:items-center lg:flex-row gap-4'>
                 <div className='lg:w-1/2 space-y-2'>
-                    <span className='text-sm font-semibold'>WHY CHOOSE US</span>
-                    <h4 className='text-3xl lg:text-4xl font-semibold'>How our team vat specialists can help you</h4>
+                    <span className='text-sm font-semibold'>WH0 WE HELP</span>
+                    <h4 className='text-3xl lg:text-4xl font-semibold'>How our team accountants can help you</h4>
                 </div>
                 <div className='lg:w-1/2'>
                     <p>
-                        We are committed to meeting client needs and creating relevant solutions for your business pains. Our Firm places   remarkable emphasis on proffessional standards, confidently and the level of qualifications and experienced personnel.
+                        Our expertise spans various industries, ensuring that every client receives personalized, effective solutions that foster growth, compliance, and long-term success.
                     </p>
                 </div>
             </div>

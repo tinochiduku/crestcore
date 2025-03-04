@@ -1,6 +1,7 @@
 import React from 'react'
 import ServiceCard from '../ui/service-card'
 import Button from '../ui/button'
+import services from '@/lib/services'
 
 export default function Services() {
   return (
@@ -9,21 +10,24 @@ export default function Services() {
             <div className='flex flex-col lg:items-center lg:flex-row gap-4'>
                 <div className='lg:w-1/2 space-y-2'>
                     <span className='text-sm font-semibold'>OUR SERVICES</span>
-                    <h4 className='text-3xl lg:text-4xl font-semibold'>Your business goals are our priority</h4>
+                    <h4 className='text-3xl lg:text-4xl font-semibold'>Your Business Goals, Our Priority</h4>
                 </div>
                 <div className='lg:w-1/2'>
                     <p>
-                        We are committed to meeting client needs and creating relevant solutions for your business pains. Our Firm places   remarkable emphasis on proffessional standards, confidently and the level of qualifications and experienced personnel.
-                    </p>
+                        At Crestcore Consulting and Advisory, we deliver expert accounting, tax, and advisory solutions tailored to your unique needs.</p>
                 </div>
             </div>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8 px-4 xl:px-10'>
-            <ServiceCard
-                img='/assets/counter-img-1.jpg'
-                label='TaxPlanning And Preparation'
-                href='#'
-            />
+            {services.map(({label, description, img}, index) => 
+                index >= 2 && 
+                <ServiceCard
+                    key={label}
+                    img='/assets/counter-img-1.jpg'
+                    label={label}
+                    href='/services'
+                />
+            )}
         </div>
         <div className='flex flex-col items-center'>
             <Button label='View All Services' href='/services' />
