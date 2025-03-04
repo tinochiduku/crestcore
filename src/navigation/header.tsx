@@ -71,7 +71,7 @@ const Header: React.FC = () => {
                 </Link>
             </div>
             <div className='flex items-center justify-around lg:hidden'>
-                <nav className={`fixed flex items-center text-xs gap-4 justify-between ${open ? 'left-[2.5%]' : '-left-[100%]' } bottom-4 px-4 bg-[var(--primary)] text-white transition-all duration-300 ease-in-out py-5 w-[95%] rounded-md shadow shadow-cyan-400/30`}>
+                <nav className={`fixed z-50 flex items-center text-xs gap-4 justify-between ${open ? 'left-[2.5%]' : '-left-[100%]' } bottom-4 px-4 bg-[var(--primary)] text-white transition-all duration-300 ease-in-out py-5 w-[95%] rounded-md shadow shadow-cyan-400/30`}>
                     {_nav.map((route) => (
                         <motion.div
                             key={route.title}

@@ -55,11 +55,11 @@ export default function About() {
                     </p>
                 </div>
                 <div className='flex flex-col items-start space-y-4'>
-                    <span className='p-2 bg-[var(--secondary)] rounded-full flex items-center justify-around'>
+                    <span className='p-2.5 bg-[var(--secondary)] rounded-full flex items-center justify-around'>
                         <Image
                             alt='icon'
                             src='/assets/icon-about-company-2.svg'
-                            className='size-10 object-contain'
+                            className='size-8 object-contain'
                             width={0}
                             height={0}
                             sizes='100svw'
@@ -70,11 +70,11 @@ export default function About() {
                     </p>
                 </div>
                 <div className='flex flex-col items-start space-y-4'>
-                    <span className='p-2 bg-[var(--secondary)] rounded-full flex items-center justify-around'>
+                    <span className='p-2.5 bg-[var(--secondary)] rounded-full flex items-center justify-around'>
                         <Image
                             alt='icon'
                             src='/assets/icon-about-company-3.svg'
-                            className='size-10 object-contain'
+                            className='size-8 object-contain'
                             width={0}
                             height={0}
                             sizes='100svw'
