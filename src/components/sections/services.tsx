@@ -23,7 +23,7 @@ export default function Services() {
                 index >= 2 && 
                 <ServiceCard
                     key={label}
-                    img='/assets/counter-img-1.jpg'
+                    img={img}
                     label={label}
                     href='/services'
                 />

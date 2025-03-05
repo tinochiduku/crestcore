@@ -26,7 +26,7 @@ export default function Blog() {
                         <div>
                             <div className='flex items-center justify-around relative overflow-hidden group rounded-2xl xl:rounded-3xl aspect-[16/11]'>
                                 <Image 
-                                    src='/assets/about-us-img.jpg' 
+                                    src={img}
                                     alt='About Us Image' 
                                     width={0} 
                                     height={0}

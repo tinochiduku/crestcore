@@ -20,12 +20,12 @@ export default function Choosing() {
             <div>
                 <div className='flex items-center justify-around relative overflow-hidden group rounded-2xl xl:rounded-3xl'>
                     <Image 
-                        src='/assets/about-us-img.jpg' 
+                        src='/images/img-6.jpg' 
                         alt='About Us Image' 
                         width={0} 
                         height={0}
                         sizes='100svw' 
-                        className='object-cover w-full h-[25rem]'
+                        className='object-cover object-top w-full h-[25rem]'
                     />
                     <div className='absolute w-full h-full bg-gradient-to-t from-[var(--primary)] to-transparent'/>
                     <div className='flex flex-col lg:flex-row gap-4 absolute bottom-4 lg:items-center justify-around w-full text-white px-4 lg:px-10'>

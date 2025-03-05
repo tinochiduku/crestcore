@@ -54,7 +54,7 @@ const Header: React.FC = () => {
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.5 }}
                         >
-                            <Link href={route.path}>{route.title}</Link>
+                            <Link className={`${pathname === route.path? 'text-[var(--secondary)]' : ''}`} href={route.path}>{route.title}</Link>
                         </motion.div>
                     ))}
                 </nav>

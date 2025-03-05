@@ -16,13 +16,13 @@ export default function Affairs() {
             <div className='lg:w-3/5 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4'>
                 <div className='flex items-center justify-around bg-gray-50 rounded-4xl h-full w-full aspect-[16/9] md:aspect-auto'>
                     <div className='text-center'>
-                        <h4 className='text-3xl font-bold'>980+</h4>
+                        <h4 className='text-3xl font-bold'>380+</h4>
                         <p>Finacial Audits Conducted Annually</p>
                     </div>
                 </div>
                 <div className='flex items-center justify-around relative overflow-hidden group rounded-2xl xl:rounded-3xl aspect-[16/9] lg:col-span-2'>
                     <Image 
-                        src='/assets/counter-img-1.jpg' 
+                        src='/images/img-7.jpg' 
                         alt='About Us Image' 
                         width={0} 
                         height={0}
@@ -33,13 +33,13 @@ export default function Affairs() {
                 </div>
                 <div className='flex items-center justify-around bg-gray-50 rounded-4xl h-full w-full aspect-[16/9] md:aspect-auto'>
                     <div className='text-center'>
-                        <h4 className='text-3xl font-bold'>980+</h4>
-                        <p>Finacial Audits Conducted Annually</p>
+                        <h4 className='text-3xl font-bold'>200+</h4>
+                        <p></p>
                     </div>
                 </div>
                 <div className='flex items-center justify-around relative overflow-hidden group rounded-2xl xl:rounded-3xl'>
                     <Image 
-                        src='/assets/counter-img-2.jpg' 
+                        src='/images/img-2.jpg' 
                         alt='About Us Image' 
                         width={0} 
                         height={0}
@@ -56,7 +56,7 @@ export default function Affairs() {
                 </div>
                 <div className='flex items-center justify-around relative overflow-hidden group rounded-2xl xl:rounded-3xl'>
                     <Image 
-                        src='/assets/counter-img-3.jpg' 
+                        src='/images/img-5.jpg' 
                         alt='About Us Image' 
                         width={0} 
                         height={0}

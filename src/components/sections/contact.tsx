@@ -44,7 +44,7 @@ export default function Contact() {
             </div>
         </form>
         <div className='flex flex-col items-center'>
-            <Button label='Submit Now' href='/services' />
+            <Button label='Submit Now' href='/contact' />
         </div>
     </section>
   )
