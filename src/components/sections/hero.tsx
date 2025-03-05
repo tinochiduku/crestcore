@@ -33,7 +33,7 @@ export default function Hero() {
                     <Button label='View Our Services' href='#' />
                 </div>
             </div>
-            <div className='relative flex items-end lg:w-1/2'>
+            <div className='relative flex items-end lg:w-1/2 overflow-hidden'>
                 <div className='absolute bg-[var(--secondary)] w-auto h-10/12 aspect-square rounded-2xl bottom-0' />
                 <Image
                     alt="hero-image"
