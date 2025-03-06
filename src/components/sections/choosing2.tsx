@@ -19,14 +19,14 @@ export default function Choosing2() {
             </div>
             <div className='flex flex-col items-center md:items-start lg:w-1/2 gap-10'>
                 <div>
-                    <span className='text-sm font-semibold'>WHY CHOOSE US</span>
-                    <h1 className='md:text-left text-3xl lg:text-4xl font-semibold'>Why choose us as your trusted financial partner?</h1>
+                    <span className='text-sm font-semibold'>ABOUT US</span>
+                    <h1 className='md:text-left text-3xl lg:text-4xl font-semibold'>Overview of our firm</h1>
                 </div>
                 <p className='md:text-left'>
-                    At Crestcore Consulting and Advisory, we combine industry expertise, innovative solutions, and a deep commitment to our clients' success. Our team of highly qualified professionals offers a comprehensive range of services, from accounting and tax advisory to business consulting and forensic accounting, all tailored to meet the unique needs of each client.
+                    Crestcore consultancy and advisory is a boutique tax accounting and advisory services firm. The partners are registered with the public accountants and auditors board (paab), institute of certified tax accountants zimbabwe (ictaz), and are members of institute of directors of zimbabwe (iodz) providing accounting,audit, tax advisory, tax planning, business consulting services, company formations and registrations, Forensic accounting and audit.
                 </p>
                 <p className='md:text-left'>
-                    We prioritize integrity, empathy, and respect in every engagement, ensuring that our solutions are not only effective but also aligned with your business goals. With a focus on precision and professionalism, Crestcore is your trusted partner in navigating complex financial landscapes, driving growth, and achieving long-term success. Let us empower your business with the expertise and personalized attention it deserves.
+                We are committed to meeting our client's needs creating relevant solutions for your business pains. Our firm places remarkable emphasis on professional standards, confidentiality and the level of qualifications and experienced personnel. Drawing upon the skill and competence of our people and commitment of our stuff, we provide effective, innovative yet practical business solutions to your clients.
                 </p>
                 <div className='flex items-center gap-4'>
                         <div className=''>

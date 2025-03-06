@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../ui/button'
 import Image from 'next/image'
 import { FaStar } from 'react-icons/fa6'
+import services from '@/lib/services'
 
 export default function Hero() {
   return (
@@ -26,11 +27,14 @@ export default function Hero() {
                         </span>
                     </div>
                 </div>
-                <h1 className='text-center md:text-left text-3xl lg:text-4xl font-semibold'>Your Trusted Partner in Financial Excellence</h1>
+                <h1 className='text-center md:text-left text-3xl lg:text-4xl font-semibold'>Your Trusted Partner in Business Consulting</h1>
                 <p className='text-center md:text-left'>Our understanding of your industry and your individual circumstances allow us to contribute far more than accountancy advice. We believe in being more than an advisory firm but that the advice is relevant to your business</p>
+                <div className='items-center align-middle'>
+                    {services.map(({label}) => <span className='inline-block rounded-lg bg-[var(--secondary)]/30 mx-auto mr-2 mb-2 text-sm text-[var(--primary)] py-1 px-2'>{label}</span>)}
+                </div>
                 <div className='flex flex-col sm:flex-row items-center gap-4'>
-                    <Button label='Work With Us' href='#' />
-                    <Button label='View Our Services' href='#' />
+                    <Button label='Work With Us' href='/contact' />
+                    <Button label='View Our Services' href='/services' />
                 </div>
             </div>
             <div className='relative flex items-end lg:w-1/2 overflow-hidden'>
